@@ -1,0 +1,22 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2">
+            <nav class="navbar navbar-dark  flex-md-column">
+            
+                <a routerLink="/admin/home" class="navbar-brand"><h3>Management</h3></a>
+                <div class="" id="" >
+                    <ul class="flex-md-column flex-row navbar-nav w-100 justify-content-between">
+                        <li class="nav-item"><a routerLink="/admin/home" class="nav-link img"><img src="https://png.pngtree.com/png-vector/20190702/ourlarge/pngtree-female-user-avatars-flat-style-women-profession-vector-png-image_1529171.jpg"  alt="logo" height="150px" width="150px"  style="border-radius:120px;"></a></li>                        
+                        <li class="nav-item"><a routerLink="/admin/home" class="nav-link"><i class="fa-solid fa-house">&nbsp;</i>Home</a></li>
+                        <li class="nav-item"><a routerLink="/admin/add" class="nav-link"><i class="fa-solid fa-book"></i>&nbsp;Add New Book</a></li>
+                        <li class="nav-item"><a routerLink="/admin/manage" class="nav-link"><i class="fa-solid fa-list-check"></i>&nbsp;Manage All Books</a></li>
+                        <li class="nav-item"><a routerLink="" class="nav-link">Logout</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="col-md-9">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>

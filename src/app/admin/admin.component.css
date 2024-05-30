@@ -1,0 +1,30 @@
+li{
+    padding: 10px;
+}
+ul{
+    margin-top: -600px;
+}
+nav{
+    height: 746px;
+    margin-left: -12px;
+    position: fixed;
+    width: 250px;
+}
+.navbar{
+    background-color:#26A5D8;
+}
+
+.navbar-brand{
+    margin-top: 30px;
+}
+
+h4{
+    padding: 5px;
+}
+h6{
+    padding: 5px;
+}
+
+.img{
+    margin-top: -50px;
+}
